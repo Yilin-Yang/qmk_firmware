@@ -1,0 +1,43 @@
+{
+    "usb": {
+        "force_nkro": true,
+        "polling_interval": 1
+    },
+    "features": {
+        "nkro": false,
+        "rgblight": true,
+        "rgb_matrix": false
+    },
+    "matrix_pins": {
+        "cols": ["D4", "C6", "D7", "E6", "B4", "B5", "F4"]
+    },
+    "diode_direction": "ROW2COL",
+    "split": {
+        "transport": {
+            "protocol": "i2c",
+            "sync": {
+                "layer_state": true,
+                "matrix_state": true,
+                "modifiers": true
+            },
+            "watchdog": true
+        },
+        "usb_detect": {
+            "enabled": true
+        }
+    },
+    "mouse_key": {
+        "enabled": true
+    },
+    "rgblight": {
+        "led_count": 86,
+        "driver": "ws2812",
+        "layers": {
+            "blink": false,
+            "enabled": true,
+            "max": 8
+        },
+        "split": true,
+        "split_count": [43, 43]
+    }
+}
