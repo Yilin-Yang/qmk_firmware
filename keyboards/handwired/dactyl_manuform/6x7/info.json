@@ -51,6 +51,19 @@
     },
     "rgblight": {
         "led_count": 86,
+        "animations": {
+            "static_light": true,
+            "breathing": true,
+            "rainbow_mood": true,
+            "rainbow_swirl": true,
+            "snake": false,
+            "knight": false,
+            "christmas": false,
+            "static_gradient": false,
+            "rgb_test": false,
+            "alternating": false,
+            "twinkle": false
+        },
         "driver": "ws2812",
         "layers": {
             "blink": false,
