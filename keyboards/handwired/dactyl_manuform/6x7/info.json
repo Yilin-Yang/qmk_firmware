@@ -53,9 +53,9 @@
         "led_count": 86,
         "animations": {
             "static_light": true,
-            "breathing": true,
-            "rainbow_mood": true,
-            "rainbow_swirl": true,
+            "breathing": false,
+            "rainbow_mood": false,
+            "rainbow_swirl": false,
             "snake": false,
             "knight": false,
             "christmas": false,
@@ -70,6 +70,7 @@
             "enabled": true,
             "max": 8
         },
+        "max_brightness": 120,
         "split": true,
         "split_count": [43, 43]
     },
