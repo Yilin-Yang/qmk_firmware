@@ -42,11 +42,5 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // :avrdude-split-left/:avrdude-split-right
 #define EE_HANDS
 
-// #ifdef SOFT_SERIAL_PIN
-// #   undef SOFT_SERIAL_PIN
-// #endif
-
-// #define USE_I2C
-
 /* fix space cadet rollover issue */
 #define DISABLE_SPACE_CADET_ROLLOVER

@@ -32,15 +32,14 @@
     "diode_direction": "ROW2COL",
     "split": {
         "enabled": true,
-        "soft_serial_pin": "D0",
         "transport": {
-            "protocol": "serial",
+            "protocol": "i2c",
             "sync": {
                 "layer_state": true,
                 "matrix_state": true,
                 "modifiers": true
             },
-            "watchdog": false
+            "watchdog": true
         },
         "usb_detect": {
             "enabled": true
