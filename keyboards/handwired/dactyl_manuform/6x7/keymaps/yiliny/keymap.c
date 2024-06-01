@@ -47,7 +47,7 @@ layer_state_t layer_state_set_user(layer_state_t state) {
         rgblight_sethsv(HSV_BLUE);
         break;
     case 4:  // mac shift
-        rgblight_sethsv(170, 20, 255);  // blue-gray
+        rgblight_sethsv(42, 100, 255);  // light yellow
         break;
     case 5:  // linux shift
         rgblight_sethsv(HSV_RED);
