@@ -1,3 +1,4 @@
+#include "split_util.h"
 #include QMK_KEYBOARD_H
 
 
